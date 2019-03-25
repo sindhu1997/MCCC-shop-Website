@@ -17,7 +17,7 @@ WebUI.callTestCase(findTestCase('Listing page/Listing page of membership'), [:],
 
 WebUI.callTestCase(findTestCase('Listing page/Premium membership'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(10)
+WebUI.delay(11)
 
 assert WebUI.getUrl() == 'http://192.168.0.28:90/basket'
 
