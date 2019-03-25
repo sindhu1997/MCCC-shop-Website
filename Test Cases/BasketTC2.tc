@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Calculation part</description>
+   <name>BasketTC2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>15773382-ea90-4b04-85e4-443bf80d1be2</testCaseGuid>
+   <variable>
+      <defaultValue>2</defaultValue>
+      <description></description>
+      <id>3338ce24-5790-49ce-b0ad-a1dda6c154b5</id>
+      <masked>false</masked>
+      <name>Quantity</name>
+   </variable>
+</TestCaseEntity>

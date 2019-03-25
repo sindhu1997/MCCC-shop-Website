@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>P_OOR</name>
+   <tag></tag>
+   <elementGuidId>462c446f-728c-42aa-9538-4e67d6bb6a14</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;msform&quot;]/fieldset/div/div[2]/table/tbody/tr[2]/td[2]/select</value>
+   </webElementProperties>
+</WebElementEntity>

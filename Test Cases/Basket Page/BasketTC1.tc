@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BasketTC1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f80748e1-a27e-4f8f-a1ed-5b77b59d06d3</testCaseGuid>
+   <variable>
+      <defaultValue>2</defaultValue>
+      <description></description>
+      <id>ec1d8bf0-ef58-4016-b62c-7bc304b2f38a</id>
+      <masked>false</masked>
+      <name>Quantity</name>
+   </variable>
+</TestCaseEntity>

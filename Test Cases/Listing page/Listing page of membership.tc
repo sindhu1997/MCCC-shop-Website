@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigating to that page and  verifying the text</description>
+   <name>Listing page of membership</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2e26b24d-da2d-4298-ad40-c547363840c1</testCaseGuid>
+</TestCaseEntity>

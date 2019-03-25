@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Full</name>
+   <tag></tag>
+   <elementGuidId>813e05ec-4376-470b-bead-98ff8def8894</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;msform&quot;]/fieldset/div/div[2]/table/tbody/tr[3]/td[2]/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;msform&quot;]/fieldset/div/div[2]/table/tbody/tr[3]/td[2]/select</value>
+   </webElementProperties>
+</WebElementEntity>

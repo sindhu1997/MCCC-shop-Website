@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Cart(2)</name>
+   <tag></tag>
+   <elementGuidId>27c8865e-91b5-4658-8ed7-006fa4023a07</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div/div[2]/header/div/div[3]/section/a/div/span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div/div[2]/header/div/div[3]/section/a/div/span[1]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PP_OR</name>
+   <tag></tag>
+   <elementGuidId>7bc04f78-20b7-470a-b6a1-9e909d42a2ab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;msform&quot;]/fieldset/div/div[2]/table/tbody/tr[2]/td[2]/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;msform&quot;]/fieldset/div/div[2]/table/tbody/tr[2]/td[2]/select</value>
+   </webElementProperties>
+</WebElementEntity>
