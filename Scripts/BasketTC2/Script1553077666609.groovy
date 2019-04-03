@@ -16,13 +16,16 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
 WebUI.callTestCase(findTestCase('Basket Page/BasketTC1'), [('Quantity') : 2], FailureHandling.STOP_ON_FAILURE)
 
+'open browser'
 WebUI.selectOptionByLabel(findTestObject('PP_OR'), '4', false)
 
 String s = WebUI.getText(findTestObject('drop/Page_/select_12345678910'))
 
-
 WebUI.verifyOptionSelectedByValue(findTestObject('PP_OR'), '4', true, 20)
-int P=4
-int n = P * 415;
-assert n==1660.00
+
+int P = 4
+
+int n = P * 415
+
+assert n == 1660.00
 
