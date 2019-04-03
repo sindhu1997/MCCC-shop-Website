@@ -15,25 +15,24 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://192.168.0.28:90/list')
+WebUI.navigateToUrl('http://192.168.0.28:90/register')
 
-WebUI.navigateToUrl('http://192.168.0.28:90/detail/5/PREMIER/0')
+WebUI.setText(findTestObject('Page_Laravel/input_First name _firstname (1) (2)'), 'Test')
 
-WebUI.click(findTestObject('Object Repository/Adding membership_OR/Page_PREMIER/small_Add to Basket  Checkout'))
+WebUI.setText(findTestObject('Page_Laravel/input_Last name _lastname (1) (2)'), 'qwe')
 
-WebUI.click(findTestObject('Object Repository/Adding membership_OR/Page_PREMIER/a_Membership'))
+WebUI.setText(findTestObject('Page_Laravel/input_Date of birth _birthday (1) (2)'), '38-20-100')
 
-WebUI.navigateToUrl('http://192.168.0.28:90/detail/6/FULL/1')
+WebUI.setText(findTestObject('Page_Laravel/input_Email _email (1) (2)'), 'der@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/Adding membership_OR/Page_FULL/small_Add to Basket  Checkout'))
+WebUI.setEncryptedText(findTestObject('Page_Laravel/input_Password _password (2)'), 'vOoj4tQjAWXLIsZbNdAqig==')
 
-//WebUI.click(findTestObject('Object Repository/Adding membership_OR/Page_FULL/a_2680.00'))
+WebUI.setEncryptedText(findTestObject('Page_Laravel/input_Confirm password _password_confirmation (2)'), 'vOoj4tQjAWVV9mKJ1JcWEw==')
 
-F = WebUI.getAttribute(findTestObject('Full'), '1')
+WebUI.delay(10)
 
-P = WebUI.getAttribute(findTestObject('Premier'), '1')
+WebUI.click(findTestObject('Page_Laravel/small_REGISTER'))
 
-int T = F + P
-
-V=WebUI.getAttribute(findTestObject('Cart(2)'), '2')
+//WebUI.click(findTestObject('Object Repository/Register'))
+WebUI.verifyTextPresent('Please enter valid date.', false)
 

@@ -13,27 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Verify the summary page/verify test case 01'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://192.168.0.28:90/list')
+WebUI.delay(10)
 
-WebUI.navigateToUrl('http://192.168.0.28:90/detail/5/PREMIER/0')
+WebUI.click(findTestObject('BUY'))
 
-WebUI.click(findTestObject('Object Repository/Adding membership_OR/Page_PREMIER/small_Add to Basket  Checkout'))
+WebUI.delay(0)
 
-WebUI.click(findTestObject('Object Repository/Adding membership_OR/Page_PREMIER/a_Membership'))
+WebUI.selectOptionByLabel(findTestObject('Quantity dropdown'), '2', true)
 
-WebUI.navigateToUrl('http://192.168.0.28:90/detail/6/FULL/1')
-
-WebUI.click(findTestObject('Object Repository/Adding membership_OR/Page_FULL/small_Add to Basket  Checkout'))
-
-//WebUI.click(findTestObject('Object Repository/Adding membership_OR/Page_FULL/a_2680.00'))
-
-F = WebUI.getAttribute(findTestObject('Full'), '1')
-
-P = WebUI.getAttribute(findTestObject('Premier'), '1')
-
-int T = F + P
-
-V=WebUI.getAttribute(findTestObject('Cart(2)'), '2')
+WebUI.click(findTestObject('checkout1'))
 

@@ -21,7 +21,7 @@ WebUI.selectOptionByLabel(findTestObject('Quantity dropdown'), '2', true)
 
 WebUI.click(findTestObject('Page_PREMIER/small_Add to Basket  Checkout'))
 
-WebUI.click(findTestObject('Page_PREMIER/small_Add to Basket  Checkout'))
+//WebUI.click(findTestObject('Page_PREMIER/small_Add to Basket  Checkout'))
 
 WebUI.navigateToUrl('http://192.168.0.28:90/basket')
 

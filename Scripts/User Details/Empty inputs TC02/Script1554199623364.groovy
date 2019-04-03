@@ -15,25 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://192.168.0.28:90/list')
+WebUI.navigateToUrl('http://192.168.0.28:90/register')
 
-WebUI.navigateToUrl('http://192.168.0.28:90/detail/5/PREMIER/0')
+WebUI.delay(10)
 
-WebUI.click(findTestObject('Object Repository/Adding membership_OR/Page_PREMIER/small_Add to Basket  Checkout'))
-
-WebUI.click(findTestObject('Object Repository/Adding membership_OR/Page_PREMIER/a_Membership'))
-
-WebUI.navigateToUrl('http://192.168.0.28:90/detail/6/FULL/1')
-
-WebUI.click(findTestObject('Object Repository/Adding membership_OR/Page_FULL/small_Add to Basket  Checkout'))
-
-//WebUI.click(findTestObject('Object Repository/Adding membership_OR/Page_FULL/a_2680.00'))
-
-F = WebUI.getAttribute(findTestObject('Full'), '1')
-
-P = WebUI.getAttribute(findTestObject('Premier'), '1')
-
-int T = F + P
-
-V=WebUI.getAttribute(findTestObject('Cart(2)'), '2')
+WebUI.click(findTestObject('Object Repository/empty inputs/Page_Laravel/button_REGISTER'))
 
