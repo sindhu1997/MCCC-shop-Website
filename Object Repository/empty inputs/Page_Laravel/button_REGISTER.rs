@@ -9,18 +9,22 @@
          <key>XPATH</key>
          <value>//button[@type='submit']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;app&quot;]/div[4]/div[2]/div/fieldset/div/div/div/form/div[7]/div/button/small</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -35,19 +39,18 @@
             text-uppercase next action-button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>REGISTER</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/fieldset[@class=&quot;my-3 box-shadow&quot;]/div[@class=&quot;card bg-dark-trans rounded-0 border-0&quot;]/div[@class=&quot;card-body pt-0 pb-0 pr-0&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4&quot;]/button[@class=&quot;btn btn-warning btn-sm btn-block rounded-0
-            text-uppercase next action-button&quot;]</value>
+      <value>//*[@id=&quot;app&quot;]/div[4]/div[2]/div/fieldset/div/div/div/form/div[7]/div/button/small</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

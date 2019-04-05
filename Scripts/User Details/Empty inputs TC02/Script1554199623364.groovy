@@ -13,6 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Empty inputs'
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://192.168.0.28:90/register')
@@ -20,4 +21,6 @@ WebUI.navigateToUrl('http://192.168.0.28:90/register')
 WebUI.delay(10)
 
 WebUI.click(findTestObject('Object Repository/empty inputs/Page_Laravel/button_REGISTER'))
+
+WebUI.takeScreenshot('E:\\screenshot.png')
 

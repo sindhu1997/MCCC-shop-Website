@@ -21,18 +21,14 @@ WebUI.delay(10)
 
 WebUI.click(findTestObject('Verify summary/Page_Laravel/Page_Laravel/a_SIGN IN INSTEAD (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Verify summary/Page_Laravel/Page_Laravel/input_Email_email'), 'sindhu@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Verify summary/Page_Laravel/Page_Laravel/input_Email_email'), '')
 
 WebUI.click(findTestObject('Object Repository/Verify summary/Page_Laravel/Page_Laravel/button_NEXT'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Verify summary/Page_Laravel/Page_Laravel/input_Password_password'), 
-    'EKDr/xws5XY=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Verify summary/Page_Laravel/Page_Laravel/input_Password_password'))
 
 WebUI.click(findTestObject('Object Repository/Verify summary/Page_Laravel/Page_Laravel/button_LOGIN'))
 
-WebUI.verifyTextPresent('Welcome, Sindhu! ', false)
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('logout'))
+not_run: WebUI.verifyTextPresent('Oops. Looks like we don\'t have your details in our system. Please register now to proceed with your membership', 
+    false)
 

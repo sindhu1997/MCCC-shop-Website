@@ -19,6 +19,7 @@ WebUI.callTestCase(findTestCase('Basket Page/BasketTC1'), [('Quantity') : 2], Fa
 'open browser'
 WebUI.selectOptionByLabel(findTestObject('PP_OR'), '4', false)
 
+'s'
 String s = WebUI.getText(findTestObject('drop/Page_/select_12345678910'))
 
 WebUI.verifyOptionSelectedByValue(findTestObject('PP_OR'), '4', true, 20)

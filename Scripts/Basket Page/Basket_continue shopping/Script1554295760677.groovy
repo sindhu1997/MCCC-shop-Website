@@ -13,26 +13,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Listing page/Listing page of membership'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://192.168.0.28:90/register')
+WebUI.callTestCase(findTestCase('Listing page/Premium membership'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(10)
+WebUI.delay(11)
 
-WebUI.click(findTestObject('Verify summary/Page_Laravel/Page_Laravel/a_SIGN IN INSTEAD (1)'))
+assert WebUI.getUrl() == 'http://192.168.0.28:90/basket'
 
-WebUI.setText(findTestObject('Object Repository/Verify summary/Page_Laravel/Page_Laravel/input_Email_email'), 'sindhu@gmail.com')
+WebUI.verifyTextPresent('Basket', false)
 
-WebUI.click(findTestObject('Object Repository/Verify summary/Page_Laravel/Page_Laravel/button_NEXT'))
+WebUI.verifyTextPresent('Unit Price', false)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Verify summary/Page_Laravel/Page_Laravel/input_Password_password'), 
-    'EKDr/xws5XY=')
-
-WebUI.click(findTestObject('Object Repository/Verify summary/Page_Laravel/Page_Laravel/button_LOGIN'))
-
-WebUI.verifyTextPresent('Welcome, Sindhu! ', false)
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('logout'))
+WebUI.click(findTestObject('Continue shopping'))
 
